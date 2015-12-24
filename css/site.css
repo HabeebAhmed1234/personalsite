@@ -1,0 +1,87 @@
+.header {
+    background : #ffffff;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 50px;
+}
+
+.title-main {
+    font-weight: 300;
+    font-size: 4.5em;
+    line-height: 1;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;    
+}
+
+.sub-title-main {
+    font-weight: 200;
+    font-size: 2em;
+    line-height: 1;
+    word-spacing: 0em; 
+    margin-top: 10px;   
+}
+
+.top-margin-main {
+    margin-top: 200px;
+}
+
+.top-margin {
+    margin-top: 75px;
+}
+
+.top-margin-30 {
+    margin-top: 30px;
+}
+
+.top-margin-content {
+    margin-top: 10px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.phone-background {
+    height : 100%;
+    width: auto;
+    background: url('../img/phone_background.png') no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.margin-left-right-phone {
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.padding-left-right-phone {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fill-screen {
+    height : 100%;
+    width : auto;
+}
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:center;
+}
