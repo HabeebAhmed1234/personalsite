@@ -11,7 +11,14 @@ var buttons = [document.getElementById('github_btn') ,
                document.getElementById('throwned_icon'),
                document.getElementById('music_player_icon'),
                document.getElementById('wakey_wakey_icon'),
-               document.getElementById('peppit_icon')];
+               document.getElementById('peppit_icon'),
+               document.getElementById('uwhub_icon'),
+               document.getElementById('pop_icon'),
+               document.getElementById('nvidia_logo'),
+               document.getElementById('enflick_logo'),
+               document.getElementById('venmo_logo'),
+               document.getElementById('blackberry_logo'),
+               document.getElementById('quantica_logo')];
 
 // create a SpringSystem and a Spring with a bouncy config.
 var springSystem = new rebound.SpringSystem();

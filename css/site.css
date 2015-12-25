@@ -49,12 +49,36 @@
     margin-top: 30px;
 }
 
+.top-margin-50 {
+    margin-top: 50px;
+}
+
+.top-margin-150 {
+    margin-top: 150px;
+}
+
 .top-margin-content {
     margin-top: 10px;
 }
 
 .icons {
     margin-top: 20px;
+}
+
+.icon {
+    width : 125px;
+    height: 125px;
+}
+
+.company-logo {
+    width : 175px;
+    height: auto; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
 
 .phone-background {
