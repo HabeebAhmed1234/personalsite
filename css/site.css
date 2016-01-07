@@ -89,11 +89,6 @@
     padding-top: 100px;
 }
 
-.margin-left-right-phone {
-    margin-left: 33%;
-    margin-right: 33%;
-}
-
 .padding-left-right-phone {
     padding-left: 5%;
     padding-right: 5%;
@@ -108,4 +103,31 @@
    margin-left:auto;
    margin-right:auto;
    display:center;
+}
+
+.fill-height {
+    height : 100%;
+}
+
+.screenshot {
+    width: auto;
+    height: 85%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    font-size: 150%;
+    width: auto;
+    height: 85%;
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.companies-description {
+    font-size: 150%;
 }

@@ -20,7 +20,6 @@
 	    <li><a id="btn_projects" href="#">Projects</a></li>
 	    <li><a id="btn_companies" href="#">Companies</a></li>
 	    <li><a id="btn_resume" href="#">Resume</a></li>
-	    <li><a id="btn_blog" href="#">Blog</a></li>
 	  </ul>
 	</nav>
 
@@ -42,43 +41,54 @@
 			</div>
 		</div>
 		<div class="pt-page pt-page-2">
-		  	<div class="top-margin-content phone-background margin-left-right-phone padding-left-right-phone">
-		  		<div class="row top-margin-30">
-		  			<div class="col-md-6">
-		  				<a href="https://play.google.com/store/apps/details?id=com.throwned.android">
-	  						<img id="throwned_icon" class="center-block icon" src="img/ic_throwned.png"/>
-	  					</a>
-		  			</div>
-		  			<div class="col-md-6">
-		  				<a href="https://play.google.com/store/apps/details?id=com.cromiumapps.recordplayer">
-	  						<img id="music_player_icon" class="center-block icon" src="img/ic_music_player.png"/>
-	  					</a>
-		  			</div>
-		  		</div>
-		  		<div class="row top-margin-30">
-		  			<div class="col-md-6">
-		  				<a href="https://play.google.com/store/apps/details?id=com.wakeywakey2.alarmclock">
-	  						<img id="wakey_wakey_icon" class="center-block icon" src="img/ic_wakey_wakey.png"/>
-	  					</a>
-		  			</div>
-		  			<div class="col-md-6">
-		  				<a href="https://play.google.com/store/apps/details?id=com.peppit">
-	  						<img id="peppit_icon" class="center-block icon" src="img/ic_peppit.png"/>
-	  					</a>
-		  			</div>
-		  		</div>
-		  		<div class="row top-margin-30">
-		  			<div class="col-md-6">
-		  				<a href="https://play.google.com/store/apps/details?id=com.cromiumapps.uwhub">
-	  						<img id="uwhub_icon" class="center-block icon" src="img/ic_uwhub.png"/>
-	  					</a>
-		  			</div>
-		  			<div class="col-md-6">
-		  				<a href="https://play.google.com/store/apps/details?id=org.game.habeeb">
-	  						<img id="pop_icon" class="center-block icon" src="img/ic_pop.png"/>
-	  					</a>
-		  			</div>
-		  		</div>
+			<div class="row fill-height top-margin-content">
+				<div id="project_info_1" class="col-md-4 fill-height">
+					<img id="screenshot" class="screenshot" />
+				</div>
+				<div id="phone" class="col-md-4 fill-height">
+				  	<div class="phone-background padding-left-right-phone">
+				  		<div class="row top-margin-30">
+				  			<div class="col-md-6">
+				  				<a href="https://play.google.com/store/apps/details?id=com.throwned.android">
+			  						<img id="throwned_icon" class="center-block icon" src="img/ic_throwned.png"/>
+			  					</a>
+				  			</div>
+				  			<div class="col-md-6">
+				  				<a href="https://play.google.com/store/apps/details?id=com.cromiumapps.recordplayer">
+			  						<img id="music_player_icon" class="center-block icon" src="img/ic_music_player.png"/>
+			  					</a>
+				  			</div>
+				  		</div>
+				  		<div class="row top-margin-30">
+				  			<div class="col-md-6">
+				  				<a href="https://play.google.com/store/apps/details?id=com.wakeywakey2.alarmclock">
+			  						<img id="wakey_wakey_icon" class="center-block icon" src="img/ic_wakey_wakey.png"/>
+			  					</a>
+				  			</div>
+				  			<div class="col-md-6">
+				  				<a href="https://play.google.com/store/apps/details?id=com.peppit">
+			  						<img id="peppit_icon" class="center-block icon" src="img/ic_peppit.png"/>
+			  					</a>
+				  			</div>
+				  		</div>
+				  		<div class="row top-margin-30">
+				  			<div class="col-md-6">
+				  				<a href="https://play.google.com/store/apps/details?id=com.cromiumapps.uwhub">
+			  						<img id="uwhub_icon" class="center-block icon" src="img/ic_uwhub.png"/>
+			  					</a>
+				  			</div>
+				  			<div class="col-md-6">
+				  				<a href="https://play.google.com/store/apps/details?id=org.game.habeeb">
+			  						<img id="pop_icon" class="center-block icon" src="img/ic_pop.png"/>
+			  					</a>
+				  			</div>
+				  		</div>
+					</div>
+				</div>
+				<div id="project_info_2" class="col-md-4">
+					<p id = "description" class="description">
+					</p>
+				</div>
 			</div>
 		</div>
 		<div class="pt-page pt-page-3">
@@ -103,6 +113,9 @@
 				<div class="col-md-1">
 				</div>
 			</div>
+			<div id="company_description" class="row text-center top-margin-150 companies-description ">
+
+			</div>
 		</div>
 		<div class="pt-page pt-page-4">
 			<div class="text-center fill-screen top-margin-content">
@@ -110,7 +123,6 @@
 			</div>
 		</div>
 		<div class="pt-page pt-page-5"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
-		<div class="pt-page pt-page-6"><h1><span>A collection of</span><strong>Page</strong> Transitions</h1></div>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -118,5 +130,7 @@
     <script src="src/reboundbuttons.js"></script>
 	<script src="src/modernizr.custom.js"></script>
 	<script src="src/pagetransitions.js"></script>
+	<script src="src/projectslideshow.js"></script>
+	<script src="src/companiesslideshow.js"></script>
 </body>
 </html>
